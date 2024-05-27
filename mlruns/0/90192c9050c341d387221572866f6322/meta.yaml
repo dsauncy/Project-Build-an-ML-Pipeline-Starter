@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/90192c9050c341d387221572866f6322/artifacts
+end_time: 1716593358188
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 90192c9050c341d387221572866f6322
+run_name: bustling-worm-875
+run_uuid: 90192c9050c341d387221572866f6322
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716593353082
+status: 4
+tags: []
+user_id: dsauncy

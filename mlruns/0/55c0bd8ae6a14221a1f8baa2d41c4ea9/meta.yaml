@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/55c0bd8ae6a14221a1f8baa2d41c4ea9/artifacts
+end_time: 1716593755550
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 55c0bd8ae6a14221a1f8baa2d41c4ea9
+run_name: polite-sow-351
+run_uuid: 55c0bd8ae6a14221a1f8baa2d41c4ea9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716593687537
+status: 4
+tags: []
+user_id: dsauncy

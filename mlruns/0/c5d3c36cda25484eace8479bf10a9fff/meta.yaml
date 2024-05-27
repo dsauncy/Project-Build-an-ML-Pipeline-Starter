@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/c5d3c36cda25484eace8479bf10a9fff/artifacts
+end_time: 1716593078971
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c5d3c36cda25484eace8479bf10a9fff
+run_name: bustling-steed-607
+run_uuid: c5d3c36cda25484eace8479bf10a9fff
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716593074326
+status: 4
+tags: []
+user_id: dsauncy

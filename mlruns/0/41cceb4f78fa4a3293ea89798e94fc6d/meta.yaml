@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/41cceb4f78fa4a3293ea89798e94fc6d/artifacts
+end_time: 1716589116176
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41cceb4f78fa4a3293ea89798e94fc6d
+run_name: stylish-mink-686
+run_uuid: 41cceb4f78fa4a3293ea89798e94fc6d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716589114291
+status: 4
+tags: []
+user_id: dsauncy

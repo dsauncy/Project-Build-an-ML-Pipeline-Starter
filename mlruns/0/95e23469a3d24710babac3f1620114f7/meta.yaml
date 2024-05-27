@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/95e23469a3d24710babac3f1620114f7/artifacts
+end_time: 1716594460983
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 95e23469a3d24710babac3f1620114f7
+run_name: classy-trout-75
+run_uuid: 95e23469a3d24710babac3f1620114f7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716594456189
+status: 4
+tags: []
+user_id: dsauncy

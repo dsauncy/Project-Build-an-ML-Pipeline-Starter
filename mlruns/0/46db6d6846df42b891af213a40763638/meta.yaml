@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/46db6d6846df42b891af213a40763638/artifacts
+end_time: 1716594251411
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 46db6d6846df42b891af213a40763638
+run_name: big-foal-44
+run_uuid: 46db6d6846df42b891af213a40763638
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716594237344
+status: 3
+tags: []
+user_id: dsauncy

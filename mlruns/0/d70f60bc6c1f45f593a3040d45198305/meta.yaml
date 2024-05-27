@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d70f60bc6c1f45f593a3040d45198305/artifacts
+end_time: 1716850840419
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d70f60bc6c1f45f593a3040d45198305
+run_name: bedecked-smelt-116
+run_uuid: d70f60bc6c1f45f593a3040d45198305
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716850826479
+status: 3
+tags: []
+user_id: dsauncy

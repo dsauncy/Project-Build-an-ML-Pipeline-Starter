@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/e4efc2c678ec4fb08a0b0a404df134aa/artifacts
+end_time: 1716591867957
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e4efc2c678ec4fb08a0b0a404df134aa
+run_name: victorious-hound-799
+run_uuid: e4efc2c678ec4fb08a0b0a404df134aa
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716591863285
+status: 4
+tags: []
+user_id: dsauncy

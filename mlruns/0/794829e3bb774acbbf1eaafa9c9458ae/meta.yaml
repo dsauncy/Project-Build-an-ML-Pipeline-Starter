@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/794829e3bb774acbbf1eaafa9c9458ae/artifacts
+end_time: 1716593078692
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 794829e3bb774acbbf1eaafa9c9458ae
+run_name: treasured-shad-776
+run_uuid: 794829e3bb774acbbf1eaafa9c9458ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716593077518
+status: 4
+tags: []
+user_id: dsauncy

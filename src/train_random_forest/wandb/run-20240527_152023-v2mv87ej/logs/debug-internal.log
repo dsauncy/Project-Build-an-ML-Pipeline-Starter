@@ -1,0 +1,228 @@
+2024-05-27 15:20:23,244 INFO    StreamThr :214234 [internal.py:wandb_internal():87] W&B internal server running at pid: 214234, started at: 2024-05-27 15:20:23.243553
+2024-05-27 15:20:23,248 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status
+2024-05-27 15:20:23,249 INFO    WriterThread:214234 [datastore.py:open_for_write():85] open: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/run-v2mv87ej.wandb
+2024-05-27 15:20:23,249 DEBUG   SenderThread:214234 [sender.py:send():334] send: header
+2024-05-27 15:20:23,255 DEBUG   SenderThread:214234 [sender.py:send():334] send: run
+2024-05-27 15:20:23,878 INFO    SenderThread:214234 [dir_watcher.py:__init__():216] watching files in: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files
+2024-05-27 15:20:23,878 INFO    SenderThread:214234 [sender.py:_start_run_threads():1065] run started: v2mv87ej with start time 1716848423.241003
+2024-05-27 15:20:23,878 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: summary_record
+2024-05-27 15:20:23,879 INFO    SenderThread:214234 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-05-27 15:20:23,881 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: check_version
+2024-05-27 15:20:23,882 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: check_version
+2024-05-27 15:20:24,092 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: run_start
+2024-05-27 15:20:24,095 DEBUG   HandlerThread:214234 [system_info.py:__init__():31] System info init
+2024-05-27 15:20:24,095 DEBUG   HandlerThread:214234 [system_info.py:__init__():46] System info init done
+2024-05-27 15:20:24,095 INFO    HandlerThread:214234 [system_monitor.py:start():151] Starting system monitor
+2024-05-27 15:20:24,095 INFO    SystemMonitor:214234 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-05-27 15:20:24,095 INFO    HandlerThread:214234 [system_monitor.py:probe():172] Collecting system info
+2024-05-27 15:20:24,096 INFO    SystemMonitor:214234 [interfaces.py:start():168] Started cpu
+2024-05-27 15:20:24,097 INFO    SystemMonitor:214234 [interfaces.py:start():168] Started disk
+2024-05-27 15:20:24,097 INFO    SystemMonitor:214234 [interfaces.py:start():168] Started memory
+2024-05-27 15:20:24,098 INFO    SystemMonitor:214234 [interfaces.py:start():168] Started network
+2024-05-27 15:20:24,102 DEBUG   HandlerThread:214234 [system_info.py:probe():195] Probing system
+2024-05-27 15:20:24,143 DEBUG   HandlerThread:214234 [system_info.py:_probe_git():180] Probing git
+2024-05-27 15:20:24,151 DEBUG   HandlerThread:214234 [system_info.py:_probe_git():188] Probing git done
+2024-05-27 15:20:24,151 DEBUG   HandlerThread:214234 [system_info.py:probe():241] Probing system done
+2024-05-27 15:20:24,151 DEBUG   HandlerThread:214234 [system_monitor.py:probe():181] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-05-27T22:20:24.102441', 'startedAt': '2024-05-27T22:20:23.222272', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/home/dsauncy/Project-Build-an-ML-Pipeline-Starter/multirun/2024-05-27/15-18-59/0/rf_config.json', '--max_tfidf_features', '5', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': '/home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'https://github.com/dsauncy/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': None, 'root': '/home/dsauncy/Project-Build-an-ML-Pipeline-Starter', 'host': 'Enkidu', 'username': 'dsauncy', 'executable': '/home/dsauncy/miniconda3/envs/mlflow-4a130764f2d122e434cffcd97235152948f87f02/bin/python', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2496.0100000000007, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2496.01, 'min': 0.0, 'max': 0.0}, {'current': 2496.01, 'min': 0.0, 'max': 0.0}, {'current': 2496.01, 'min': 0.0, 'max': 0.0}, {'current': 2496.01, 'min': 0.0, 'max': 0.0}, {'current': 2496.01, 'min': 0.0, 'max': 0.0}, {'current': 2496.01, 'min': 0.0, 'max': 0.0}, {'current': 2496.01, 'min': 0.0, 'max': 0.0}, {'current': 2496.01, 'min': 0.0, 'max': 0.0}, {'current': 2496.01, 'min': 0.0, 'max': 0.0}, {'current': 2496.01, 'min': 0.0, 'max': 0.0}, {'current': 2496.01, 'min': 0.0, 'max': 0.0}, {'current': 2496.01, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 15.460624694824219}, 'memory': {'total': 7.626213073730469}}
+2024-05-27 15:20:24,152 INFO    HandlerThread:214234 [system_monitor.py:probe():182] Finished collecting system info
+2024-05-27 15:20:24,152 INFO    HandlerThread:214234 [system_monitor.py:probe():185] Publishing system info
+2024-05-27 15:20:24,152 DEBUG   HandlerThread:214234 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-05-27 15:20:24,152 DEBUG   HandlerThread:214234 [system_info.py:_save_pip():67] Saving pip packages done
+2024-05-27 15:20:24,152 DEBUG   HandlerThread:214234 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-05-27 15:20:24,881 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_created():275] file/dir created: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/conda-environment.yaml
+2024-05-27 15:20:24,881 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_created():275] file/dir created: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/requirements.txt
+2024-05-27 15:20:24,881 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_created():275] file/dir created: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/wandb-summary.json
+2024-05-27 15:20:25,708 DEBUG   HandlerThread:214234 [system_info.py:_save_conda():86] Saving conda packages done
+2024-05-27 15:20:25,708 INFO    HandlerThread:214234 [system_monitor.py:probe():187] Finished publishing system info
+2024-05-27 15:20:25,711 DEBUG   SenderThread:214234 [sender.py:send():334] send: files
+2024-05-27 15:20:25,711 INFO    SenderThread:214234 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-05-27 15:20:25,718 DEBUG   SenderThread:214234 [sender.py:send():334] send: telemetry
+2024-05-27 15:20:25,720 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: stop_status
+2024-05-27 15:20:25,720 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: stop_status
+2024-05-27 15:20:25,879 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/conda-environment.yaml
+2024-05-27 15:20:25,882 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_created():275] file/dir created: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/wandb-metadata.json
+2024-05-27 15:20:26,018 DEBUG   SenderThread:214234 [sender.py:send():334] send: config
+2024-05-27 15:20:26,019 DEBUG   SenderThread:214234 [sender.py:send():334] send: config
+2024-05-27 15:20:26,371 INFO    Thread-15 :214234 [upload_job.py:push():143] Uploaded file /tmp/tmplhnq7mqgwandb/a75kqsx0-wandb-metadata.json
+2024-05-27 15:20:26,372 DEBUG   SenderThread:214234 [sender.py:send():334] send: use_artifact
+2024-05-27 15:20:27,880 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_created():275] file/dir created: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/output.log
+2024-05-27 15:20:29,016 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status_report
+2024-05-27 15:20:29,881 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/output.log
+2024-05-27 15:20:34,018 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status_report
+2024-05-27 15:20:39,019 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status_report
+2024-05-27 15:20:40,717 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-27 15:20:40,718 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-27 15:20:44,020 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status_report
+2024-05-27 15:20:45,719 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-27 15:20:49,022 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status_report
+2024-05-27 15:20:50,720 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-27 15:20:54,029 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status_report
+2024-05-27 15:20:54,896 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/config.yaml
+2024-05-27 15:20:55,721 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-27 15:20:59,283 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status_report
+2024-05-27 15:21:00,722 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-27 15:21:04,284 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status_report
+2024-05-27 15:21:05,724 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-27 15:21:10,175 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status_report
+2024-05-27 15:21:10,739 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-27 15:21:11,905 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/output.log
+2024-05-27 15:21:12,409 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: log_artifact
+2024-05-27 15:21:12,410 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: log_artifact
+2024-05-27 15:21:13,255 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: partial_history
+2024-05-27 15:21:13,909 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/output.log
+2024-05-27 15:21:13,910 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_created():275] file/dir created: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/media/images/feature_importance_0_0c5964a443c246c7a8ae.png
+2024-05-27 15:21:13,910 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_created():275] file/dir created: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/media
+2024-05-27 15:21:13,911 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_created():275] file/dir created: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/media/images
+2024-05-27 15:21:14,060 INFO    Thread-18 :214234 [upload_job.py:push():101] Uploaded file /home/dsauncy/.local/share/wandb/artifacts/staging/tmpssqb5gau
+2024-05-27 15:21:14,060 INFO    Thread-22 :214234 [upload_job.py:push():101] Uploaded file /home/dsauncy/.local/share/wandb/artifacts/staging/tmpdxulq50u
+2024-05-27 15:21:14,062 INFO    Thread-21 :214234 [upload_job.py:push():101] Uploaded file /home/dsauncy/.local/share/wandb/artifacts/staging/tmpbvbg8hsj
+2024-05-27 15:21:14,106 INFO    Thread-19 :214234 [upload_job.py:push():101] Uploaded file /home/dsauncy/.local/share/wandb/artifacts/staging/tmpwsixdmng
+2024-05-27 15:21:14,107 INFO    Thread-17 :214234 [upload_job.py:push():101] Uploaded file /home/dsauncy/.local/share/wandb/artifacts/staging/tmplfdh98c0
+2024-05-27 15:21:14,262 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-27 15:21:14,832 INFO    Thread-23 :214234 [upload_job.py:push():143] Uploaded file /tmp/tmplhnq7mqgwandb/1tlnctwo-media/images/feature_importance_0_0c5964a443c246c7a8ae.png
+2024-05-27 15:21:16,431 INFO    Thread-20 :214234 [upload_job.py:push():101] Uploaded file /home/dsauncy/.local/share/wandb/artifacts/staging/tmp0wvmqa4y
+2024-05-27 15:21:17,240 INFO    SenderThread:214234 [sender.py:send_request_log_artifact():1379] logged artifact random_forest_export - {'id': 'QXJ0aWZhY3Q6ODUxNjE3ODI4', 'digest': '618316084c1e35f374e448d454cae878', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3OTYzNjM2Mw==', 'latestArtifact': None}, 'version': 'latest'}
+2024-05-27 15:21:17,240 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: summary_record
+2024-05-27 15:21:17,241 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status_report
+2024-05-27 15:21:17,244 INFO    SenderThread:214234 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-05-27 15:21:17,244 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: summary_record
+2024-05-27 15:21:17,245 INFO    SenderThread:214234 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-05-27 15:21:17,245 DEBUG   SenderThread:214234 [sender.py:send():334] send: files
+2024-05-27 15:21:17,245 INFO    SenderThread:214234 [sender.py:_save_file():1319] saving file media/images/feature_importance_0_0c5964a443c246c7a8ae.png with policy now
+2024-05-27 15:21:17,245 DEBUG   SenderThread:214234 [sender.py:send():334] send: history
+2024-05-27 15:21:17,246 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: summary_record
+2024-05-27 15:21:17,246 INFO    SenderThread:214234 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-05-27 15:21:17,246 DEBUG   SenderThread:214234 [sender.py:send():334] send: exit
+2024-05-27 15:21:17,247 INFO    SenderThread:214234 [sender.py:send_exit():557] handling exit code: 0
+2024-05-27 15:21:17,247 INFO    SenderThread:214234 [sender.py:send_exit():559] handling runtime: 49
+2024-05-27 15:21:17,247 INFO    SenderThread:214234 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-05-27 15:21:17,247 INFO    SenderThread:214234 [sender.py:send_exit():565] send defer
+2024-05-27 15:21:17,247 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: poll_exit
+2024-05-27 15:21:17,247 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:17,248 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 0
+2024-05-27 15:21:17,248 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:17,248 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-05-27 15:21:17,248 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 1
+2024-05-27 15:21:17,249 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:17,249 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 1
+2024-05-27 15:21:17,250 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:17,250 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-05-27 15:21:17,250 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 2
+2024-05-27 15:21:17,250 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:17,250 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 2
+2024-05-27 15:21:17,250 INFO    HandlerThread:214234 [system_monitor.py:finish():161] Stopping system monitor
+2024-05-27 15:21:17,254 DEBUG   SystemMonitor:214234 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-05-27 15:21:17,255 DEBUG   SystemMonitor:214234 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-05-27 15:21:17,255 DEBUG   SystemMonitor:214234 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-05-27 15:21:17,255 INFO    HandlerThread:214234 [interfaces.py:finish():175] Joined cpu
+2024-05-27 15:21:17,256 INFO    HandlerThread:214234 [interfaces.py:finish():175] Joined disk
+2024-05-27 15:21:17,256 INFO    HandlerThread:214234 [interfaces.py:finish():175] Joined memory
+2024-05-27 15:21:17,256 INFO    HandlerThread:214234 [interfaces.py:finish():175] Joined network
+2024-05-27 15:21:17,256 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:17,256 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-05-27 15:21:17,256 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 3
+2024-05-27 15:21:17,257 DEBUG   SenderThread:214234 [sender.py:send():334] send: stats
+2024-05-27 15:21:17,257 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:17,257 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 3
+2024-05-27 15:21:17,257 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:17,257 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-05-27 15:21:17,257 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 4
+2024-05-27 15:21:17,258 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:17,258 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 4
+2024-05-27 15:21:17,258 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:17,258 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-05-27 15:21:17,258 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 5
+2024-05-27 15:21:17,258 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:17,258 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 5
+2024-05-27 15:21:17,259 DEBUG   SenderThread:214234 [sender.py:send():334] send: summary
+2024-05-27 15:21:17,259 INFO    SenderThread:214234 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-05-27 15:21:17,259 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:17,259 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-05-27 15:21:17,259 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 6
+2024-05-27 15:21:17,259 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:17,260 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 6
+2024-05-27 15:21:17,260 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:17,260 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-05-27 15:21:17,260 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 7
+2024-05-27 15:21:17,260 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status_report
+2024-05-27 15:21:17,260 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:17,261 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 7
+2024-05-27 15:21:17,261 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:17,261 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-05-27 15:21:17,912 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/wandb-summary.json
+2024-05-27 15:21:18,008 INFO    Thread-24 :214234 [upload_job.py:push():143] Uploaded file /tmp/tmplhnq7mqgwandb/fbtmkp14-media/images/feature_importance_0_0c5964a443c246c7a8ae.png
+2024-05-27 15:21:19,063 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 8
+2024-05-27 15:21:19,064 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:19,064 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 8
+2024-05-27 15:21:19,064 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:19,065 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-05-27 15:21:19,080 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 9
+2024-05-27 15:21:19,081 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:19,081 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 9
+2024-05-27 15:21:19,082 DEBUG   SenderThread:214234 [sender.py:send():334] send: artifact
+2024-05-27 15:21:19,265 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: keepalive
+2024-05-27 15:21:19,914 INFO    Thread-12 :214234 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/output.log
+2024-05-27 15:21:20,356 INFO    Thread-26 :214234 [upload_job.py:push():101] Uploaded file /home/dsauncy/.local/share/wandb/artifacts/staging/tmpmz9p7ny_
+2024-05-27 15:21:20,356 INFO    Thread-27 :214234 [upload_job.py:push():101] Uploaded file /home/dsauncy/.local/share/wandb/artifacts/staging/tmpduhogj67
+2024-05-27 15:21:21,727 INFO    SenderThread:214234 [sender.py:send_artifact():1415] sent artifact job-https___github.com_dsauncy_Project-Build-an-ML-Pipeline-Starter.git_src_train_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6ODUxNjE3ODg3', 'digest': '4602f11832315cf32d88d10af7581000', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE3OTYzNjM3NQ==', 'latestArtifact': None}, 'version': 'latest'}
+2024-05-27 15:21:21,727 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:21,728 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-05-27 15:21:21,728 INFO    SenderThread:214234 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-05-27 15:21:21,916 INFO    SenderThread:214234 [dir_watcher.py:finish():392] scan: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files
+2024-05-27 15:21:21,917 INFO    SenderThread:214234 [dir_watcher.py:finish():406] scan save: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/wandb-summary.json wandb-summary.json
+2024-05-27 15:21:21,917 INFO    SenderThread:214234 [dir_watcher.py:finish():406] scan save: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/wandb-metadata.json wandb-metadata.json
+2024-05-27 15:21:21,917 INFO    SenderThread:214234 [dir_watcher.py:finish():406] scan save: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/requirements.txt requirements.txt
+2024-05-27 15:21:21,918 INFO    SenderThread:214234 [dir_watcher.py:finish():406] scan save: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/config.yaml config.yaml
+2024-05-27 15:21:21,922 INFO    SenderThread:214234 [dir_watcher.py:finish():406] scan save: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/conda-environment.yaml conda-environment.yaml
+2024-05-27 15:21:21,922 INFO    SenderThread:214234 [dir_watcher.py:finish():406] scan save: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/output.log output.log
+2024-05-27 15:21:21,927 INFO    SenderThread:214234 [dir_watcher.py:finish():406] scan save: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/media/images/feature_importance_0_0c5964a443c246c7a8ae.png media/images/feature_importance_0_0c5964a443c246c7a8ae.png
+2024-05-27 15:21:21,928 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 10
+2024-05-27 15:21:21,928 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:21,929 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 10
+2024-05-27 15:21:21,942 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:21,942 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-05-27 15:21:21,942 INFO    SenderThread:214234 [file_pusher.py:finish():160] shutting down file pusher
+2024-05-27 15:21:22,701 INFO    Thread-29 :214234 [upload_job.py:push():143] Uploaded file /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/requirements.txt
+2024-05-27 15:21:22,716 INFO    Thread-28 :214234 [upload_job.py:push():143] Uploaded file /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/wandb-summary.json
+2024-05-27 15:21:22,735 INFO    Thread-30 :214234 [upload_job.py:push():143] Uploaded file /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/config.yaml
+2024-05-27 15:21:22,760 INFO    Thread-32 :214234 [upload_job.py:push():143] Uploaded file /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/output.log
+2024-05-27 15:21:22,763 INFO    Thread-31 :214234 [upload_job.py:push():143] Uploaded file /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/files/conda-environment.yaml
+2024-05-27 15:21:22,943 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: status_report
+2024-05-27 15:21:22,964 INFO    Thread-11 :214234 [sender.py:transition_state():585] send defer: 11
+2024-05-27 15:21:22,965 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:22,965 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 11
+2024-05-27 15:21:22,966 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:22,966 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-05-27 15:21:22,966 INFO    SenderThread:214234 [file_pusher.py:join():165] waiting for file pusher
+2024-05-27 15:21:22,966 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 12
+2024-05-27 15:21:22,966 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:22,966 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 12
+2024-05-27 15:21:22,967 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:22,967 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-05-27 15:21:23,123 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 13
+2024-05-27 15:21:23,124 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:23,124 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 13
+2024-05-27 15:21:23,124 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:23,124 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-05-27 15:21:23,124 INFO    SenderThread:214234 [sender.py:transition_state():585] send defer: 14
+2024-05-27 15:21:23,125 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: defer
+2024-05-27 15:21:23,125 INFO    HandlerThread:214234 [handler.py:handle_request_defer():170] handle defer: 14
+2024-05-27 15:21:23,125 DEBUG   SenderThread:214234 [sender.py:send():334] send: final
+2024-05-27 15:21:23,126 DEBUG   SenderThread:214234 [sender.py:send():334] send: footer
+2024-05-27 15:21:23,126 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: defer
+2024-05-27 15:21:23,126 INFO    SenderThread:214234 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-05-27 15:21:23,130 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: poll_exit
+2024-05-27 15:21:23,131 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: poll_exit
+2024-05-27 15:21:23,131 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: server_info
+2024-05-27 15:21:23,132 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: get_summary
+2024-05-27 15:21:23,132 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: sampled_history
+2024-05-27 15:21:23,132 DEBUG   SenderThread:214234 [sender.py:send_request():361] send_request: server_info
+2024-05-27 15:21:23,333 INFO    MainThread:214234 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-05-27 15:21:23,333 INFO    MainThread:214234 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-05-27 15:21:23,333 INFO    MainThread:214234 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2024-05-27 15:21:23,334 DEBUG   HandlerThread:214234 [handler.py:handle_request():144] handle_request: shutdown
+2024-05-27 15:21:23,334 INFO    HandlerThread:214234 [handler.py:finish():841] shutting down handler
+2024-05-27 15:21:24,132 INFO    WriterThread:214234 [datastore.py:close():299] close: /home/dsauncy/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240527_152023-v2mv87ej/run-v2mv87ej.wandb
+2024-05-27 15:21:24,332 INFO    SenderThread:214234 [sender.py:finish():1491] shutting down sender
+2024-05-27 15:21:24,333 INFO    SenderThread:214234 [file_pusher.py:finish():160] shutting down file pusher
+2024-05-27 15:21:24,333 INFO    SenderThread:214234 [file_pusher.py:join():165] waiting for file pusher

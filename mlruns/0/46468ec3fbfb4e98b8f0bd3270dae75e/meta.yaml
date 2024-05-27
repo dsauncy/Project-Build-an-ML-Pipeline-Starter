@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/46468ec3fbfb4e98b8f0bd3270dae75e/artifacts
+end_time: 1716593672552
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 46468ec3fbfb4e98b8f0bd3270dae75e
+run_name: salty-cat-918
+run_uuid: 46468ec3fbfb4e98b8f0bd3270dae75e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716593670733
+status: 4
+tags: []
+user_id: dsauncy

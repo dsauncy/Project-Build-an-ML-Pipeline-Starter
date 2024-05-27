@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8e996cdb01e749959d29867ef5ac2a87/artifacts
+end_time: 1716589214589
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8e996cdb01e749959d29867ef5ac2a87
+run_name: big-fish-277
+run_uuid: 8e996cdb01e749959d29867ef5ac2a87
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716589210130
+status: 4
+tags: []
+user_id: dsauncy

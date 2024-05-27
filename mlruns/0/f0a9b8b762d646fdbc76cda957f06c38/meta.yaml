@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f0a9b8b762d646fdbc76cda957f06c38/artifacts
+end_time: 1716589214341
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f0a9b8b762d646fdbc76cda957f06c38
+run_name: rebellious-slug-885
+run_uuid: f0a9b8b762d646fdbc76cda957f06c38
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716589212691
+status: 4
+tags: []
+user_id: dsauncy

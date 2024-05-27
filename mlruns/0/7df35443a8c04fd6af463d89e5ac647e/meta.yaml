@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7df35443a8c04fd6af463d89e5ac647e/artifacts
+end_time: 1716592616144
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7df35443a8c04fd6af463d89e5ac647e
+run_name: adorable-koi-893
+run_uuid: 7df35443a8c04fd6af463d89e5ac647e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716592614308
+status: 4
+tags: []
+user_id: dsauncy

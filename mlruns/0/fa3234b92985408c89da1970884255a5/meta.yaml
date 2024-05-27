@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fa3234b92985408c89da1970884255a5/artifacts
+end_time: 1716850840606
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fa3234b92985408c89da1970884255a5
+run_name: amusing-goat-610
+run_uuid: fa3234b92985408c89da1970884255a5
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716850823919
+status: 3
+tags: []
+user_id: dsauncy

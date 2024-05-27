@@ -24,7 +24,6 @@ from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_absolute_error
 from sklearn.pipeline import Pipeline, make_pipeline
 
-
 def delta_date_feature(dates):
     """
     Given a 2d array containing dates (in any format recognized by pd.to_datetime), it returns the delta in days
@@ -73,7 +72,7 @@ def go(args):
 
     ######################################
     # Fit the pipeline sk_pipe by calling the .fit method on X_train and y_train
-    # YOUR CODE HERE
+    sk_pipe.fit(X_train, y_train)
     ######################################
 
     # Compute r2 and MAE
@@ -97,7 +96,8 @@ def go(args):
     # HINT: use mlflow.sklearn.save_model
     signature = mlflow.models.infer_signature(X_val, y_pred)
     mlflow.sklearn.save_model(
-        # YOUR CODE HERE
+        sk_pipe,
+        path = "random_forest_dir",
         signature = signature,
         input_example = X_train.iloc[:5]
     )
@@ -121,7 +121,7 @@ def go(args):
     # Here we save variable r_squared under the "r2" key
     run.summary['r2'] = r_squared
     # Now save the variable mae under the key "mae".
-    # YOUR CODE HERE
+    run.summary['mae'] = mae
     ######################################
 
     # Upload to W&B the feture importance visualization
@@ -164,7 +164,8 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
     # 1 - A SimpleImputer(strategy="most_frequent") to impute missing values
     # 2 - A OneHotEncoder() step to encode the variable
     non_ordinal_categorical_preproc = make_pipeline(
-        # YOUR CODE HERE
+        SimpleImputer(strategy = "most_frequent"),
+        OneHotEncoder()
     )
     ######################################
 
@@ -227,7 +228,8 @@ def get_inference_pipeline(rf_config, max_tfidf_features):
 
     sk_pipe = Pipeline(
         steps =[
-        # YOUR CODE HERE
+        ("preprocessor", preprocessor),
+        ("random_forest", random_forest)
         ]
     )
 

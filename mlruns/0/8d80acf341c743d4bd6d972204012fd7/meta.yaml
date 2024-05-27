@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8d80acf341c743d4bd6d972204012fd7/artifacts
+end_time: 1716497221178
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8d80acf341c743d4bd6d972204012fd7
+run_name: handsome-moth-578
+run_uuid: 8d80acf341c743d4bd6d972204012fd7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716497217155
+status: 4
+tags: []
+user_id: dsauncy

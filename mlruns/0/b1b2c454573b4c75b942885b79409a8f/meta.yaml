@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b1b2c454573b4c75b942885b79409a8f/artifacts
+end_time: 1716592079776
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b1b2c454573b4c75b942885b79409a8f
+run_name: dapper-seal-154
+run_uuid: b1b2c454573b4c75b942885b79409a8f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716592074885
+status: 4
+tags: []
+user_id: dsauncy

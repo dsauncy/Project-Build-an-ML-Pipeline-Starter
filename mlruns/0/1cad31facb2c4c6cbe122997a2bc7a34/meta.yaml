@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/1cad31facb2c4c6cbe122997a2bc7a34/artifacts
+end_time: 1716591701746
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 1cad31facb2c4c6cbe122997a2bc7a34
+run_name: fearless-fox-656
+run_uuid: 1cad31facb2c4c6cbe122997a2bc7a34
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716591696628
+status: 4
+tags: []
+user_id: dsauncy

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ac2344e1ae604284907208e190a9a11d/artifacts
+end_time: 1716498534795
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ac2344e1ae604284907208e190a9a11d
+run_name: rumbling-colt-344
+run_uuid: ac2344e1ae604284907208e190a9a11d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716498428862
+status: 4
+tags: []
+user_id: dsauncy

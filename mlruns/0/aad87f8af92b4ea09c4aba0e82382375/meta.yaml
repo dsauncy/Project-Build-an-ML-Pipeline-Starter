@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/aad87f8af92b4ea09c4aba0e82382375/artifacts
+end_time: 1716849935955
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aad87f8af92b4ea09c4aba0e82382375
+run_name: flawless-jay-694
+run_uuid: aad87f8af92b4ea09c4aba0e82382375
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716849842327
+status: 3
+tags: []
+user_id: dsauncy

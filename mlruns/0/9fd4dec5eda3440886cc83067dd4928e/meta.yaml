@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9fd4dec5eda3440886cc83067dd4928e/artifacts
+end_time: 1716589340323
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9fd4dec5eda3440886cc83067dd4928e
+run_name: clumsy-stag-408
+run_uuid: 9fd4dec5eda3440886cc83067dd4928e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716589338760
+status: 4
+tags: []
+user_id: dsauncy

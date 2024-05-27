@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5f50ca8e58a94c7ca85267581da882cd/artifacts
+end_time: 1716848726634
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5f50ca8e58a94c7ca85267581da882cd
+run_name: defiant-squid-755
+run_uuid: 5f50ca8e58a94c7ca85267581da882cd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716848263934
+status: 3
+tags: []
+user_id: dsauncy

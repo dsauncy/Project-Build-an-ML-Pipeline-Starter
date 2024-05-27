@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7d64a6c74bbf4e4b886535e3cd760974/artifacts
+end_time: 1716590657235
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7d64a6c74bbf4e4b886535e3cd760974
+run_name: spiffy-hen-473
+run_uuid: 7d64a6c74bbf4e4b886535e3cd760974
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716590652138
+status: 4
+tags: []
+user_id: dsauncy

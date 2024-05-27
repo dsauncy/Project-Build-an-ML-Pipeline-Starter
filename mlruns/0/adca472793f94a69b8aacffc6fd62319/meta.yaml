@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/adca472793f94a69b8aacffc6fd62319/artifacts
+end_time: 1716589116351
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: adca472793f94a69b8aacffc6fd62319
+run_name: omniscient-kit-39
+run_uuid: adca472793f94a69b8aacffc6fd62319
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716589110981
+status: 4
+tags: []
+user_id: dsauncy

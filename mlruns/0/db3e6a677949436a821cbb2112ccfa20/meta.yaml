@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/db3e6a677949436a821cbb2112ccfa20/artifacts
+end_time: 1716590491520
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: db3e6a677949436a821cbb2112ccfa20
+run_name: amusing-sponge-703
+run_uuid: db3e6a677949436a821cbb2112ccfa20
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716590486658
+status: 4
+tags: []
+user_id: dsauncy

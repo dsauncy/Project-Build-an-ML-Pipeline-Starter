@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/064179de87ea487db54d54e1d008f5f4/artifacts
+end_time: 1716848485789
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 064179de87ea487db54d54e1d008f5f4
+run_name: masked-bee-675
+run_uuid: 064179de87ea487db54d54e1d008f5f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716848340069
+status: 3
+tags: []
+user_id: dsauncy

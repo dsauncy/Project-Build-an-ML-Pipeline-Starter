@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/36ff019adc0a43c6bb4068f251623d1e/artifacts
+end_time: 1716592616411
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36ff019adc0a43c6bb4068f251623d1e
+run_name: adorable-frog-698
+run_uuid: 36ff019adc0a43c6bb4068f251623d1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716592539367
+status: 4
+tags: []
+user_id: dsauncy
