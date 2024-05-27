@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/49ac4da94a0943ac9cc251c4710d7fb8/artifacts
+end_time: 1716323110392
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 49ac4da94a0943ac9cc251c4710d7fb8
+run_name: burly-whale-39
+run_uuid: 49ac4da94a0943ac9cc251c4710d7fb8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716323075067
+status: 4
+tags: []
+user_id: dsauncy

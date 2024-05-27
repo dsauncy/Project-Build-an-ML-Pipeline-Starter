@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/aa284b45570b4de9a021c71d2b54f12c/artifacts
+end_time: 1716238421358
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa284b45570b4de9a021c71d2b54f12c
+run_name: illustrious-hog-82
+run_uuid: aa284b45570b4de9a021c71d2b54f12c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716238411232
+status: 4
+tags: []
+user_id: dsauncy

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9415298fdc5345959798d0377870834d/artifacts
+end_time: 1716325001607
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9415298fdc5345959798d0377870834d
+run_name: debonair-colt-926
+run_uuid: 9415298fdc5345959798d0377870834d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716324746917
+status: 4
+tags: []
+user_id: dsauncy

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/52e95e3cb0b4453f8d7de4cd162fff86/artifacts
+end_time: 1716853717432
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 52e95e3cb0b4453f8d7de4cd162fff86
+run_name: resilient-yak-512
+run_uuid: 52e95e3cb0b4453f8d7de4cd162fff86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716853566949
+status: 3
+tags: []
+user_id: dsauncy

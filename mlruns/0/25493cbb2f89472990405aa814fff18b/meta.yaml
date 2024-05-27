@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/25493cbb2f89472990405aa814fff18b/artifacts
+end_time: 1716237774943
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25493cbb2f89472990405aa814fff18b
+run_name: fortunate-conch-603
+run_uuid: 25493cbb2f89472990405aa814fff18b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716237734991
+status: 4
+tags: []
+user_id: dsauncy

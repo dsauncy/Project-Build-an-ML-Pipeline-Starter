@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/cc4058bd8cae4f74a045e7b7cab5f841/artifacts
+end_time: 1716323839518
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cc4058bd8cae4f74a045e7b7cab5f841
+run_name: amusing-goose-466
+run_uuid: cc4058bd8cae4f74a045e7b7cab5f841
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716323823533
+status: 3
+tags: []
+user_id: dsauncy

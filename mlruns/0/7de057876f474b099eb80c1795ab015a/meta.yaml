@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7de057876f474b099eb80c1795ab015a/artifacts
+end_time: 1715195516088
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7de057876f474b099eb80c1795ab015a
+run_name: respected-shrike-202
+run_uuid: 7de057876f474b099eb80c1795ab015a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715195421788
+status: 4
+tags: []
+user_id: dsauncy

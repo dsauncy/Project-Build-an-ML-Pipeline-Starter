@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d16b4f2f396940d8baea5468a3f4853f/artifacts
+end_time: 1716238129237
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d16b4f2f396940d8baea5468a3f4853f
+run_name: calm-fowl-662
+run_uuid: d16b4f2f396940d8baea5468a3f4853f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716238117096
+status: 4
+tags: []
+user_id: dsauncy

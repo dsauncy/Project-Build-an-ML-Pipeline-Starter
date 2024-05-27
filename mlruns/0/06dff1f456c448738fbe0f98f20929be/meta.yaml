@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/06dff1f456c448738fbe0f98f20929be/artifacts
+end_time: 1716238503313
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 06dff1f456c448738fbe0f98f20929be
+run_name: angry-hawk-969
+run_uuid: 06dff1f456c448738fbe0f98f20929be
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716238491580
+status: 3
+tags: []
+user_id: dsauncy

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/14a19876b0564fdc930d6a90dde41cbb/artifacts
+end_time: 1716230491010
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 14a19876b0564fdc930d6a90dde41cbb
+run_name: dashing-penguin-894
+run_uuid: 14a19876b0564fdc930d6a90dde41cbb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716230488211
+status: 3
+tags: []
+user_id: dsauncy

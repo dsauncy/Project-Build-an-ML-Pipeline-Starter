@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/bdece0e5d2944651bc6f33cdd720fdde/artifacts
+end_time: 1716231045451
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bdece0e5d2944651bc6f33cdd720fdde
+run_name: persistent-lark-228
+run_uuid: bdece0e5d2944651bc6f33cdd720fdde
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716231019185
+status: 4
+tags: []
+user_id: dsauncy

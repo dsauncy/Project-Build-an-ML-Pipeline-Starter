@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/b493feef1457404783c3481cfb97a330/artifacts
+end_time: 1716238282500
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b493feef1457404783c3481cfb97a330
+run_name: industrious-shad-77
+run_uuid: b493feef1457404783c3481cfb97a330
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716238270600
+status: 4
+tags: []
+user_id: dsauncy

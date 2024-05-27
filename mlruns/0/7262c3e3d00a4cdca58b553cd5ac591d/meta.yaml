@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/7262c3e3d00a4cdca58b553cd5ac591d/artifacts
+end_time: 1716852986335
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7262c3e3d00a4cdca58b553cd5ac591d
+run_name: bright-pug-597
+run_uuid: 7262c3e3d00a4cdca58b553cd5ac591d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716852984943
+status: 4
+tags: []
+user_id: dsauncy

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ea3516ae92934948b9d8e2cfb28ac174/artifacts
+end_time: 1716852731713
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ea3516ae92934948b9d8e2cfb28ac174
+run_name: merciful-crab-85
+run_uuid: ea3516ae92934948b9d8e2cfb28ac174
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716852637573
+status: 4
+tags: []
+user_id: dsauncy

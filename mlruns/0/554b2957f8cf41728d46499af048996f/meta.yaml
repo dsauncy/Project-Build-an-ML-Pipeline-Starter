@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/554b2957f8cf41728d46499af048996f/artifacts
+end_time: 1716853236387
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 554b2957f8cf41728d46499af048996f
+run_name: hilarious-steed-445
+run_uuid: 554b2957f8cf41728d46499af048996f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716853234979
+status: 4
+tags: []
+user_id: dsauncy

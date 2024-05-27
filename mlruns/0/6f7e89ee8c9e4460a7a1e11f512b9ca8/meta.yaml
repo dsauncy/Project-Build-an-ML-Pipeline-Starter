@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/6f7e89ee8c9e4460a7a1e11f512b9ca8/artifacts
+end_time: 1715195754407
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 6f7e89ee8c9e4460a7a1e11f512b9ca8
+run_name: indecisive-panda-974
+run_uuid: 6f7e89ee8c9e4460a7a1e11f512b9ca8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715195727078
+status: 3
+tags: []
+user_id: dsauncy

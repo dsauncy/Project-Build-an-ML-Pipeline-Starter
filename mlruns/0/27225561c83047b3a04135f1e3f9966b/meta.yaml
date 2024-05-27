@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/27225561c83047b3a04135f1e3f9966b/artifacts
+end_time: 1716238282306
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 27225561c83047b3a04135f1e3f9966b
+run_name: monumental-mink-74
+run_uuid: 27225561c83047b3a04135f1e3f9966b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716238272306
+status: 4
+tags: []
+user_id: dsauncy

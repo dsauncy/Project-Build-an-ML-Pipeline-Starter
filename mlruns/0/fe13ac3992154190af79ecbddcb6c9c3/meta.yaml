@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fe13ac3992154190af79ecbddcb6c9c3/artifacts
+end_time: 1716238421542
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fe13ac3992154190af79ecbddcb6c9c3
+run_name: glamorous-frog-315
+run_uuid: fe13ac3992154190af79ecbddcb6c9c3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716238409503
+status: 4
+tags: []
+user_id: dsauncy

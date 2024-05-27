@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5f3eb3a53bdd407f9e0e08a14917a417/artifacts
+end_time: 1715195754197
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5f3eb3a53bdd407f9e0e08a14917a417
+run_name: stately-donkey-22
+run_uuid: 5f3eb3a53bdd407f9e0e08a14917a417
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1715195733631
+status: 3
+tags: []
+user_id: dsauncy

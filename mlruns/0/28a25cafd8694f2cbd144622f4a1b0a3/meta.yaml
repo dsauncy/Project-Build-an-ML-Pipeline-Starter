@@ -1,0 +1,15 @@
+artifact_uri: file:///home/dsauncy/Project-Build-an-ML-Pipeline-Starter/mlruns/0/28a25cafd8694f2cbd144622f4a1b0a3/artifacts
+end_time: 1716323839312
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 28a25cafd8694f2cbd144622f4a1b0a3
+run_name: luxuriant-mouse-199
+run_uuid: 28a25cafd8694f2cbd144622f4a1b0a3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716323826155
+status: 3
+tags: []
+user_id: dsauncy
