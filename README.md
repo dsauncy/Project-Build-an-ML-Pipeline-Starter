@@ -1,7 +1,7 @@
 # URL for public Weights and Balances project:
 [https://wandb.ai/dcsauncy/nyc_airbnb](https://wandb.ai/dcsauncy/nyc_airbnb)
 
-# URL for piblic Github repository:
+# URL for public Github repository:
 [https://github.com/dsauncy/Project-Build-an-ML-Pipeline-Starter](https://github.com/dsauncy/Project-Build-an-ML-Pipeline-Starter)
 
 # Build an ML Pipeline for Short-Term Rental Prices in NYC
